@@ -10,7 +10,9 @@ Step 2: Now in order to access the parent component data that is available in th
             Here child refers to the variable in the parent component ts file.
 #
             Here childData refers to the variable in the child component ts file which will accept data from the parent component.
-##
-Step 3: Now in the child component ts file 
+#
+Step 3: Now in the child component ts file
+# 
             @Input() childData; 
+#
             This @Input() which is available in @angular/core field available in the child component will accept data.
