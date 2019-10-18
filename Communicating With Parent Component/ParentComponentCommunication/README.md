@@ -16,9 +16,7 @@ Step 2: To observe the data being passed from the child to parent create a butto
 Step 3: Now the event is emitted by the child component which has to handled by the parent component , like shown below in the selector of the child component in the parent component Html
 ##
             <div class="container">
-##
                 <app-child (eventClicked)='handleEventClicked($event)'></app-child>
-##
             </div>
 ##
         Here eventClicked is the output event emitted from the child component and handleEventClicked($event) will the method of the parent component to handle the data.
