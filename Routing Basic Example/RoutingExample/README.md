@@ -1,5 +1,4 @@
-    ###
-	```
+    ##
 	Angular Routing
 	==============
 	
@@ -18,13 +17,13 @@
 							{path:'home',component:HomeComponent}
 							]
 			
-	```
-	###
+	
+	##
 	Step 1. Creating route in the routes section of the app-routing.module.ts
 				```const routes: Routes = [
 					{path:'admin',component:AdminComponent}];
 				```
-    ###            
+    ##             
 	Step 2. So when somebody goes to this route the 
 				```
 					<div class="container my-3 py-3">
